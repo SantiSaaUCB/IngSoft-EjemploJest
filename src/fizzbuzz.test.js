@@ -13,4 +13,7 @@ describe("FizzBuzz", () => {
      it("deberia retornar 'Fizz' si el numero es multiplo de 3", () => {
           expect(fizzbuzz(6)).toEqual("Fizz");
      });
+     it("deberia retornar 'Buzz' si el numero es 5", () => {
+          expect(fizzbuzz(5)).toEqual("Buzz");
+     });
 });
