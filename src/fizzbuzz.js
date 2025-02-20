@@ -1,5 +1,10 @@
 function fizzbuzz(num){
-     return String(num);
+     if(num == 3){
+          return "Fizz";
+     }
+     else{
+          return String(num);
+     }
 }
 
 export default fizzbuzz;
